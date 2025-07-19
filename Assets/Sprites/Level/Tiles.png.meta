@@ -147,7 +147,7 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 71fc8a01570a04460800000000000000
       internalID: 7223950226953391895
@@ -169,7 +169,7 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 67e09ae35047ebb80800000000000000
       internalID: -8377130690987618698
@@ -191,7 +191,7 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 15fa3e43947edfeb0800000000000000
       internalID: -4684333735789482159
@@ -213,7 +213,7 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 89f42d9689f6eb9b0800000000000000
       internalID: -5062486230716756072
@@ -235,7 +235,7 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 4b5eb9a48d7c5e830800000000000000
       internalID: 4099902767569298868
@@ -257,7 +257,7 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: d57c2263f29ba21a0800000000000000
       internalID: -6833445872158455971
@@ -279,7 +279,7 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: ec530dc77578988f0800000000000000
       internalID: -537749870668139058
@@ -301,7 +301,7 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: ba1ce127c348aa510800000000000000
       internalID: 1561205615984820651
@@ -564,7 +564,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 16, y: -4}
+        - {x: -12, y: -3}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: b95bc45d4a76ccc4fbdcdce71565a1f1
@@ -586,7 +591,13 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 16, y: -3}
+        - {x: 11, y: -3}
+        - {x: 5, y: -3}
+        - {x: -16, y: -5}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: fdbb7576b30f94f418b48996df9e472b
@@ -1004,7 +1015,13 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 16, y: -2}
+        - {x: 15, y: -2}
+        - {x: 3, y: -8}
+        - {x: -12, y: -12}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: 18e41db3da7703c4ca42f39c1df5e467
@@ -1026,7 +1043,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 16, y: -1}
+        - {x: -12, y: 0}
+        - {x: -16, y: -2}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: ef307357606f1e6458bd938ca3a153f7
@@ -1048,7 +1070,13 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 12, y: -13}
+        - {x: 4, y: -6}
+        - {x: -12, y: -2}
+        - {x: -16, y: -1}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: 6657f1f7a1fee1f4c81f31dfe32ee7a6
@@ -1180,7 +1208,13 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 16, y: 16}
+        - {x: 13, y: 14}
+        - {x: 8, y: 12}
+        - {x: -16, y: -1}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: fca88abdcce60fa408ca7dd19d12742f
@@ -1246,7 +1280,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 16, y: 12}
+        - {x: 11, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: 07f0099093b3e204ca948e3264555887
@@ -1268,7 +1307,14 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 16, y: -2}
+        - {x: -1, y: 7}
+        - {x: -11, y: 12}
+        - {x: -14, y: 14}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
       tessellationDetail: 0
       bones: []
       spriteID: 9601b7e3757029144a6731cb5b288aae

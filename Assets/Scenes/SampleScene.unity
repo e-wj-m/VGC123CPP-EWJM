@@ -33233,6 +33233,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundCheckRadius: 0.2
   isGrounded: 0
+  isFalling: 0
+  isDiving: 0
 --- !u!114 &1160424603
 MonoBehaviour:
   m_ObjectHideFlags: 0

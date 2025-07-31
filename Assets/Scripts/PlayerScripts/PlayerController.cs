@@ -1,50 +1,58 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer), typeof(Collider2D))]
+[RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private float groundCheckRadius = 0.2f;
+    
+    [SerializeField] private bool isGrounded = false;
+    private LayerMask groundLayer;
 
     private Rigidbody2D rb;
-    private BoxCollider2D boxCollider2d;
-    [SerializeField] private LayerMask platformLayerMask;
+    private SpriteRenderer sr;
+    private Collider2D col;
+    private Animator anim;
+
+    private Vector2 groundCheckPos => new Vector2(col.bounds.min.x + col.bounds.extents.x, col.bounds.min.y);
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        boxCollider2d = GetComponent<BoxCollider2D>();
+        sr = GetComponent<SpriteRenderer>();
+        col = GetComponent<Collider2D>();
+        anim = GetComponent<Animator>();
+
+        groundLayer = LayerMask.GetMask("Ground");
+
+        if (groundLayer == 0)
+        {
+            Debug.LogWarning("Ground Layer not set fool! Please set the Ground Layer in the LayerMask.");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         float hValue = Input.GetAxis("Horizontal");
-
+        SpriteFlip(hValue);
+        
         rb.linearVelocityX = hValue * 5f;
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.AddForce(Vector2.up * 9f, ForceMode2D.Impulse);
         }
+        isGrounded = Physics2D.OverlapCircle(groundCheckPos, groundCheckRadius, groundLayer);
+
+        anim.SetFloat("hValue", Mathf.Abs(hValue));
+        anim.SetBool("isGrounded", isGrounded);
     }
 
-    private bool IsGrounded()
+    void SpriteFlip(float hValue)
     {
-        float extraHeightText = 1f;
-        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f, Vector2.down, extraHeightText, platformLayerMask);
-        Color rayColor;
-        if (raycastHit.collider != null)
-        {
-            rayColor = Color.green;
-        }
-        else
-        {
-            rayColor = Color.red;
-        }
-        Debug.DrawRay(boxCollider2d.bounds.center + new Vector3(boxCollider2d.bounds.extents.x, 0), Vector2.down * (boxCollider2d.bounds.extents.y + extraHeightText), rayColor);
-        Debug.DrawRay(boxCollider2d.bounds.center - new Vector3(boxCollider2d.bounds.extents.x, 0), Vector2.down * (boxCollider2d.bounds.extents.y + extraHeightText), rayColor);
-        Debug.DrawRay(boxCollider2d.bounds.center - new Vector3(boxCollider2d.bounds.extents.x, boxCollider2d.bounds.extents.y), Vector2.right * (boxCollider2d.bounds.extents.x), rayColor);
-        Debug.Log(raycastHit.collider);
-        return raycastHit.collider != null;
+        if ((hValue > 0 && sr.flipX) || (hValue < 0 && !sr.flipX))
+            sr.flipX = !sr.flipX;
     }
 }

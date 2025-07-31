@@ -448,7 +448,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.23, y: 2.4, z: -10}
+  m_LocalPosition: {x: 0.15999985, y: 2.0900002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33063,7 +33063,7 @@ Animator:
   m_GameObject: {fileID: 1160424596}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d979fbfc76afb17469ebe9518f3b5b50, type: 2}
+  m_Controller: {fileID: 9100000, guid: df0601d0b47ed8648b58b41daeed52b0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -33119,17 +33119,17 @@ SpriteRenderer:
   m_SortingLayerID: -1053214029
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4723107735738678597, guid: 05abf739cf138d242a7097e8bbfcd549, type: 3}
+  m_Sprite: {fileID: 1830371108, guid: 05abf739cf138d242a7097e8bbfcd549, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.0625, y: 3.3125}
+  m_Size: {x: 0.8684211, y: 1.3947369}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1160424599
 Transform:
   m_ObjectHideFlags: 0
@@ -33139,7 +33139,7 @@ Transform:
   m_GameObject: {fileID: 1160424596}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.8, y: 2.9, z: 0}
+  m_LocalPosition: {x: -4.73, y: 3.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -33212,7 +33212,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.8684211, y: 1.3947369}
-    newSize: {x: 2.0625, y: 3.3125}
+    newSize: {x: 0.8684211, y: 1.3947369}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -33231,9 +33231,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ee628cb0e316ed4a9a91df1ca1c7d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platformLayerMask:
-    serializedVersion: 2
-    m_Bits: 8
+  groundCheckRadius: 0.2
+  isGrounded: 0
 --- !u!114 &1160424603
 MonoBehaviour:
   m_ObjectHideFlags: 0

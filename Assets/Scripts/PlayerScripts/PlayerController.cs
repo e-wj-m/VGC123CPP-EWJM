@@ -6,9 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float groundCheckRadius = 0.2f;
 
-    [SerializeField] private bool isGrounded = false;
+    //[SerializeField] private bool isGrounded = false;
     [SerializeField] private bool isFalling = false;
-    [SerializeField] private bool isDiving = false;
     [SerializeField] private bool isCasting = false;
 
     private LayerMask groundLayer;
@@ -16,6 +15,8 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer sr;
     private Collider2D col;
     private Animator anim;
+    private GroundCheck groundCheck;
+    private float initialGroundCheckRadius;
 
     private Vector2 groundCheckPos => new Vector2(col.bounds.min.x + col.bounds.extents.x, col.bounds.min.y);
     void Start()
@@ -24,16 +25,20 @@ public class PlayerController : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         col = GetComponent<Collider2D>();
         anim = GetComponent<Animator>();
-
+        
         groundLayer = LayerMask.GetMask("Ground");
 
         if (groundLayer == 0)
         {
-            Debug.LogWarning("Ground Layer not set fool! Please set the Ground Layer in the LayerMask.");
+           Debug.LogWarning("Ground Layer not set fool! Please set the Ground Layer in the LayerMask. Groundcheck has not been created!");
         }
+
+        groundCheck = new GroundCheck(col, groundLayer, ref groundCheckRadius);
+        initialGroundCheckRadius = groundCheckRadius;
     }
     void Update()
     {
+        groundCheck.CheckIsGrounded();
 
         float hValue = Input.GetAxis("Horizontal");
 
@@ -49,26 +54,24 @@ public class PlayerController : MonoBehaviour
 
 
 
-        if (Input.GetButtonDown("Jump") && isGrounded && !isCasting)
+        if (Input.GetButtonDown("Jump") && groundCheck.IsGrounded && !isCasting)
         {
             rb.AddForce(Vector2.up * 9f, ForceMode2D.Impulse);
         }
 
-        isGrounded = Physics2D.OverlapCircle(groundCheckPos, groundCheckRadius, groundLayer);
-        isFalling = rb.linearVelocity.y < 0 && !isGrounded;
+        isFalling = rb.linearVelocity.y < 0 && !groundCheck.IsGrounded;
 
-        bool downHeld = Input.GetKey(KeyCode.DownArrow);
-        isDiving = isFalling && downHeld;
-
-        if (Input.GetMouseButtonDown(0) && isGrounded && !isCasting)
+        if (Input.GetMouseButtonDown(0) && groundCheck.IsGrounded && !isCasting)
         {
             anim.SetTrigger("Cast");
             isCasting = true;
         }
 
         anim.SetFloat("hValue", Mathf.Abs(hValue));
-        anim.SetBool("isGrounded", isGrounded);
+        anim.SetBool("isGrounded", groundCheck.IsGrounded);
         anim.SetBool("isFalling", isFalling);
+        if (initialGroundCheckRadius != groundCheckRadius)
+            groundCheck.UpdateGroundCheckRadius(initialGroundCheckRadius);
     }
 
     void SpriteFlip(float hValue)
@@ -76,19 +79,13 @@ public class PlayerController : MonoBehaviour
         if ((hValue > 0 && sr.flipX) || (hValue < 0 && !sr.flipX))
             sr.flipX = !sr.flipX;
     }
-
-    private void FixedUpdate()
-    {
-        if (isDiving)
-        {
-            rb.AddForce(Vector2.down * 35f);
-        }
-
-    }
-
     public void EndCast()
     {
         isCasting = false;
     }
 
+    public bool IsFalling()
+    {
+        return isFalling;
+    }
 }

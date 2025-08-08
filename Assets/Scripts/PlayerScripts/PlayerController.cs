@@ -1,9 +1,38 @@
 using UnityEngine;
+using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer), typeof(Collider2D))]
 [RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
+    private int score = 0;
+
+    public int GetScore() => score;
+    public void AddScore(int amount)
+    {
+        score += amount;
+        if (score < 0) score = 0;
+    }
+
+    private float speedMultiplier = 1f;
+
+    private Coroutine playerSpeedChange = null;
+
+    public void ApplySpeedPowerup(float multiplier, float duration)
+    {
+        if (playerSpeedChange != null) 
+            StopCoroutine(playerSpeedChange);
+        playerSpeedChange = StartCoroutine(SpeedPowerup(multiplier, duration));
+    }
+
+    private IEnumerator SpeedPowerup(float multiplier, float duration)
+    {
+        speedMultiplier = multiplier;
+        yield return new WaitForSeconds(duration);
+        speedMultiplier = 1f;
+        playerSpeedChange = null;
+    }
+
     [SerializeField] private float groundCheckRadius = 0.2f;
 
     //[SerializeField] private bool isGrounded = false;
@@ -15,7 +44,7 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer sr;
     private Collider2D col;
     private Animator anim;
-    private GroundCheck groundCheck;
+    [SerializeField] private GroundCheck groundCheck;
     private float initialGroundCheckRadius;
 
     private Vector2 groundCheckPos => new Vector2(col.bounds.min.x + col.bounds.extents.x, col.bounds.min.y);
@@ -45,7 +74,7 @@ public class PlayerController : MonoBehaviour
         if (!isCasting)
         {
             SpriteFlip(hValue);
-            rb.linearVelocityX = hValue * 5f;
+            rb.linearVelocityX = hValue * 5f * speedMultiplier;
         }
         else
         {

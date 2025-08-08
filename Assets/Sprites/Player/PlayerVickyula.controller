@@ -129,9 +129,6 @@ AnimatorStateMachine:
     m_State: {fileID: 7487274130130797236}
     m_Position: {x: 340, y: 250, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1282609315209591348}
-    m_Position: {x: 650, y: 190, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: 4476600854201014029}
     m_Position: {x: -260, y: 160, z: 0}
   m_ChildStateMachines: []
@@ -277,32 +274,6 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &1282609315209591348
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: DiveExplosion
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 0}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1101 &1423863227212165197
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -445,6 +416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f73498916f89164ea9b5997837a56c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionPrefab: {fileID: 3489511991973764128, guid: 7a338458535550743aa77df5b7635c62, type: 3}
   diveForce: 35
 --- !u!1102 &5581951409088331716
 AnimatorState:

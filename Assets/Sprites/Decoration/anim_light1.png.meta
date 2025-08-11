@@ -1,34 +1,25 @@
 fileFormatVersion: 2
-guid: 2e1742366a7f3f645989da56f6500a64
+guid: 110458460acee444dbe7d9549722dedb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4354231566380549168
-    second: Skeleton_0
+      213: -6664910623476987767
+    second: anim_light1_0
   - first:
-      213: 5809030516613042957
-    second: Skeleton_1
+      213: 4403325352999960550
+    second: anim_light1_1
   - first:
-      213: 6682473901004932845
-    second: Skeleton_2
+      213: -4030134798421513392
+    second: anim_light1_2
   - first:
-      213: -6895646428441557691
-    second: Skeleton_3
+      213: 5117785196520662038
+    second: anim_light1_3
   - first:
-      213: 8681928648562347177
-    second: Skeleton_4
+      213: 8855023437229973802
+    second: anim_light1_4
   - first:
-      213: -6534455043122499310
-    second: Skeleton_5
-  - first:
-      213: -7021505876318606439
-    second: Skeleton_6
-  - first:
-      213: 653362398722190026
-    second: Skeleton_7
-  - first:
-      213: -9021820611684853211
-    second: Skeleton_8
+      213: -6509860027778362286
+    second: anim_light1_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 36
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,199 +128,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Skeleton_0
+      name: anim_light1_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 96
-        width: 17
-        height: 31
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 034c7e73a865d6c30800000000000000
-      internalID: 4354231566380549168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleton_1
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 96
-        width: 17
-        height: 31
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d03df103a72dd9050800000000000000
-      internalID: 5809030516613042957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleton_2
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 96
-        width: 17
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de6c7329b9aecbc50800000000000000
-      internalID: 6682473901004932845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleton_3
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 48
-        width: 21
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 545cc08ab1ebd40a0800000000000000
-      internalID: -6895646428441557691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleton_4
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 48
-        width: 24
-        height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ac88d66b186c7870800000000000000
-      internalID: 8681928648562347177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleton_5
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 48
-        width: 24
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2117ce162c3f055a0800000000000000
-      internalID: -6534455043122499310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleton_6
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 1
-        width: 16
-        height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99b26b56b999e8e90800000000000000
-      internalID: -7021505876318606439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleton_7
-      rect:
-        serializedVersion: 2
-        x: 51
+        x: 15
         y: 0
-        width: 8
-        height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acaee65d3a5311900800000000000000
-      internalID: 653362398722190026
+      spriteID: 9884de3a91b7183a0800000000000000
+      internalID: -6664910623476987767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton_8
+      name: anim_light1_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 1
-        width: 16
-        height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 62
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52a1a3d04fd0cc280800000000000000
-      internalID: -9021820611684853211
+      spriteID: 6efb8082411cb1d30800000000000000
+      internalID: 4403325352999960550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_light1_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b252fd0c51218c0800000000000000
+      internalID: -4030134798421513392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_light1_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614ed536586060740800000000000000
+      internalID: 5117785196520662038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_light1_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21e9d576ec53ea70800000000000000
+      internalID: 8855023437229973802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim_light1_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25491c2abc458a5a0800000000000000
+      internalID: -6509860027778362286
       vertices: []
       indices: 
       edges: []
@@ -338,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4eab17b3412d867429c4642946d1b3b0
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -348,15 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Skeleton_0: 4354231566380549168
-      Skeleton_1: 5809030516613042957
-      Skeleton_2: 6682473901004932845
-      Skeleton_3: -6895646428441557691
-      Skeleton_4: 8681928648562347177
-      Skeleton_5: -6534455043122499310
-      Skeleton_6: -7021505876318606439
-      Skeleton_7: 653362398722190026
-      Skeleton_8: -9021820611684853211
+      anim_light1_0: -6664910623476987767
+      anim_light1_1: 4403325352999960550
+      anim_light1_2: -4030134798421513392
+      anim_light1_3: 5117785196520662038
+      anim_light1_4: 8855023437229973802
+      anim_light1_5: -6509860027778362286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

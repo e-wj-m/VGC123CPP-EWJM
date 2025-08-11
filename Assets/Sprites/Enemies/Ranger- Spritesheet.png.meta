@@ -401,12 +401,12 @@ TextureImporter:
       name: Ranger- Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 671
-        width: 27
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 672
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -423,12 +423,12 @@ TextureImporter:
       name: Ranger- Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 59
-        y: 671
-        width: 27
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 672
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -445,12 +445,12 @@ TextureImporter:
       name: Ranger- Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 107
-        y: 671
-        width: 28
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 108
+        y: 672
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -467,12 +467,12 @@ TextureImporter:
       name: Ranger- Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 155
-        y: 671
-        width: 28
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 672
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -489,12 +489,12 @@ TextureImporter:
       name: Ranger- Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 203
-        y: 671
-        width: 27
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 204
+        y: 672
+        width: 25
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -511,12 +511,12 @@ TextureImporter:
       name: Ranger- Spritesheet_5
       rect:
         serializedVersion: 2
-        x: 251
-        y: 671
-        width: 26
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 252
+        y: 672
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -533,12 +533,12 @@ TextureImporter:
       name: Ranger- Spritesheet_6
       rect:
         serializedVersion: 2
-        x: 11
-        y: 623
-        width: 19
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 624
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -555,12 +555,12 @@ TextureImporter:
       name: Ranger- Spritesheet_7
       rect:
         serializedVersion: 2
-        x: 59
-        y: 623
-        width: 19
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 624
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -577,12 +577,12 @@ TextureImporter:
       name: Ranger- Spritesheet_8
       rect:
         serializedVersion: 2
-        x: 107
-        y: 623
-        width: 20
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 108
+        y: 624
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -599,12 +599,12 @@ TextureImporter:
       name: Ranger- Spritesheet_9
       rect:
         serializedVersion: 2
-        x: 155
-        y: 623
-        width: 20
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 624
+        width: 18
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -621,12 +621,12 @@ TextureImporter:
       name: Ranger- Spritesheet_10
       rect:
         serializedVersion: 2
-        x: 203
-        y: 623
-        width: 19
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 204
+        y: 624
+        width: 17
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -643,12 +643,12 @@ TextureImporter:
       name: Ranger- Spritesheet_11
       rect:
         serializedVersion: 2
-        x: 251
-        y: 623
-        width: 18
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 252
+        y: 624
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -665,12 +665,12 @@ TextureImporter:
       name: Ranger- Spritesheet_12
       rect:
         serializedVersion: 2
-        x: 11
-        y: 575
-        width: 27
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 576
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -687,12 +687,12 @@ TextureImporter:
       name: Ranger- Spritesheet_13
       rect:
         serializedVersion: 2
-        x: 59
-        y: 576
-        width: 25
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 577
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -709,12 +709,12 @@ TextureImporter:
       name: Ranger- Spritesheet_14
       rect:
         serializedVersion: 2
-        x: 106
-        y: 578
-        width: 24
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 107
+        y: 579
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -731,12 +731,12 @@ TextureImporter:
       name: Ranger- Spritesheet_15
       rect:
         serializedVersion: 2
-        x: 155
-        y: 575
-        width: 25
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 576
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -753,12 +753,12 @@ TextureImporter:
       name: Ranger- Spritesheet_16
       rect:
         serializedVersion: 2
-        x: 203
-        y: 575
-        width: 27
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 204
+        y: 576
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -775,12 +775,12 @@ TextureImporter:
       name: Ranger- Spritesheet_17
       rect:
         serializedVersion: 2
-        x: 251
-        y: 576
-        width: 27
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 252
+        y: 577
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -797,12 +797,12 @@ TextureImporter:
       name: Ranger- Spritesheet_18
       rect:
         serializedVersion: 2
-        x: 298
-        y: 578
-        width: 28
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 299
+        y: 579
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -819,12 +819,12 @@ TextureImporter:
       name: Ranger- Spritesheet_19
       rect:
         serializedVersion: 2
-        x: 347
-        y: 575
-        width: 27
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 348
+        y: 576
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -841,12 +841,12 @@ TextureImporter:
       name: Ranger- Spritesheet_20
       rect:
         serializedVersion: 2
-        x: 11
-        y: 527
-        width: 19
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 528
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -863,12 +863,12 @@ TextureImporter:
       name: Ranger- Spritesheet_21
       rect:
         serializedVersion: 2
-        x: 59
-        y: 528
-        width: 18
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 529
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -885,12 +885,12 @@ TextureImporter:
       name: Ranger- Spritesheet_22
       rect:
         serializedVersion: 2
-        x: 106
-        y: 530
-        width: 20
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 107
+        y: 531
+        width: 18
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -907,12 +907,12 @@ TextureImporter:
       name: Ranger- Spritesheet_23
       rect:
         serializedVersion: 2
-        x: 155
-        y: 527
-        width: 19
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 528
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -929,12 +929,12 @@ TextureImporter:
       name: Ranger- Spritesheet_24
       rect:
         serializedVersion: 2
-        x: 203
-        y: 527
-        width: 19
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 204
+        y: 528
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -951,12 +951,12 @@ TextureImporter:
       name: Ranger- Spritesheet_25
       rect:
         serializedVersion: 2
-        x: 251
-        y: 528
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 252
+        y: 529
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -973,12 +973,12 @@ TextureImporter:
       name: Ranger- Spritesheet_26
       rect:
         serializedVersion: 2
-        x: 298
-        y: 530
-        width: 22
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 299
+        y: 531
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -995,12 +995,12 @@ TextureImporter:
       name: Ranger- Spritesheet_27
       rect:
         serializedVersion: 2
-        x: 347
-        y: 527
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 348
+        y: 528
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1017,12 +1017,12 @@ TextureImporter:
       name: Ranger- Spritesheet_28
       rect:
         serializedVersion: 2
-        x: 11
-        y: 479
-        width: 27
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 480
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1039,12 +1039,12 @@ TextureImporter:
       name: Ranger- Spritesheet_29
       rect:
         serializedVersion: 2
-        x: 59
-        y: 479
-        width: 28
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 480
+        width: 26
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1061,12 +1061,12 @@ TextureImporter:
       name: Ranger- Spritesheet_30
       rect:
         serializedVersion: 2
-        x: 105
-        y: 486
-        width: 31
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 106
+        y: 487
+        width: 29
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1083,12 +1083,12 @@ TextureImporter:
       name: Ranger- Spritesheet_31
       rect:
         serializedVersion: 2
-        x: 153
-        y: 487
-        width: 30
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 154
+        y: 488
+        width: 28
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1105,12 +1105,12 @@ TextureImporter:
       name: Ranger- Spritesheet_32
       rect:
         serializedVersion: 2
-        x: 201
-        y: 484
-        width: 29
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 202
+        y: 485
+        width: 27
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1127,12 +1127,12 @@ TextureImporter:
       name: Ranger- Spritesheet_33
       rect:
         serializedVersion: 2
-        x: 249
-        y: 479
-        width: 32
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 250
+        y: 480
+        width: 30
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1149,12 +1149,12 @@ TextureImporter:
       name: Ranger- Spritesheet_34
       rect:
         serializedVersion: 2
-        x: 300
-        y: 479
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 301
+        y: 480
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1171,12 +1171,12 @@ TextureImporter:
       name: Ranger- Spritesheet_35
       rect:
         serializedVersion: 2
-        x: 348
-        y: 479
-        width: 28
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 349
+        y: 480
+        width: 26
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1193,12 +1193,12 @@ TextureImporter:
       name: Ranger- Spritesheet_36
       rect:
         serializedVersion: 2
-        x: 11
-        y: 431
-        width: 19
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 432
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1215,12 +1215,12 @@ TextureImporter:
       name: Ranger- Spritesheet_37
       rect:
         serializedVersion: 2
-        x: 59
-        y: 431
-        width: 20
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 432
+        width: 18
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1237,12 +1237,12 @@ TextureImporter:
       name: Ranger- Spritesheet_38
       rect:
         serializedVersion: 2
-        x: 105
-        y: 437
-        width: 23
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 106
+        y: 438
+        width: 21
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1259,12 +1259,12 @@ TextureImporter:
       name: Ranger- Spritesheet_39
       rect:
         serializedVersion: 2
-        x: 153
-        y: 435
-        width: 25
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 154
+        y: 436
+        width: 23
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1281,12 +1281,12 @@ TextureImporter:
       name: Ranger- Spritesheet_40
       rect:
         serializedVersion: 2
-        x: 201
-        y: 434
-        width: 26
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 202
+        y: 435
+        width: 24
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1303,12 +1303,12 @@ TextureImporter:
       name: Ranger- Spritesheet_41
       rect:
         serializedVersion: 2
-        x: 249
-        y: 431
-        width: 27
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 250
+        y: 432
+        width: 25
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1325,12 +1325,12 @@ TextureImporter:
       name: Ranger- Spritesheet_42
       rect:
         serializedVersion: 2
-        x: 299
-        y: 431
-        width: 19
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 300
+        y: 432
+        width: 17
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1347,12 +1347,12 @@ TextureImporter:
       name: Ranger- Spritesheet_43
       rect:
         serializedVersion: 2
-        x: 347
-        y: 431
-        width: 20
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 348
+        y: 432
+        width: 18
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1369,12 +1369,12 @@ TextureImporter:
       name: Ranger- Spritesheet_44
       rect:
         serializedVersion: 2
-        x: 9
-        y: 393
-        width: 23
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 394
+        width: 21
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1391,12 +1391,12 @@ TextureImporter:
       name: Ranger- Spritesheet_45
       rect:
         serializedVersion: 2
-        x: 59
-        y: 387
-        width: 19
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 388
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1413,12 +1413,12 @@ TextureImporter:
       name: Ranger- Spritesheet_46
       rect:
         serializedVersion: 2
-        x: 107
-        y: 385
-        width: 19
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 108
+        y: 386
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1435,12 +1435,12 @@ TextureImporter:
       name: Ranger- Spritesheet_47
       rect:
         serializedVersion: 2
-        x: 11
-        y: 337
-        width: 19
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 338
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1457,12 +1457,12 @@ TextureImporter:
       name: Ranger- Spritesheet_48
       rect:
         serializedVersion: 2
-        x: 59
-        y: 339
-        width: 19
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 340
+        width: 17
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1479,12 +1479,12 @@ TextureImporter:
       name: Ranger- Spritesheet_49
       rect:
         serializedVersion: 2
-        x: 107
-        y: 345
-        width: 19
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 108
+        y: 346
+        width: 17
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1501,12 +1501,12 @@ TextureImporter:
       name: Ranger- Spritesheet_50
       rect:
         serializedVersion: 2
-        x: 155
-        y: 347
-        width: 20
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 348
+        width: 18
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1523,12 +1523,12 @@ TextureImporter:
       name: Ranger- Spritesheet_51
       rect:
         serializedVersion: 2
-        x: 11
-        y: 287
-        width: 19
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 288
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1545,12 +1545,12 @@ TextureImporter:
       name: Ranger- Spritesheet_52
       rect:
         serializedVersion: 2
-        x: 56
-        y: 287
-        width: 41
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 57
+        y: 288
+        width: 39
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1567,12 +1567,12 @@ TextureImporter:
       name: Ranger- Spritesheet_53
       rect:
         serializedVersion: 2
-        x: 103
-        y: 287
-        width: 42
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 104
+        y: 288
+        width: 40
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1589,12 +1589,12 @@ TextureImporter:
       name: Ranger- Spritesheet_54
       rect:
         serializedVersion: 2
-        x: 152
-        y: 287
-        width: 9
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 153
+        y: 288
+        width: 7
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1611,12 +1611,12 @@ TextureImporter:
       name: Ranger- Spritesheet_55
       rect:
         serializedVersion: 2
-        x: 155
-        y: 287
-        width: 36
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 288
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1633,12 +1633,12 @@ TextureImporter:
       name: Ranger- Spritesheet_56
       rect:
         serializedVersion: 2
-        x: 203
-        y: 287
-        width: 36
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 204
+        y: 288
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1655,12 +1655,12 @@ TextureImporter:
       name: Ranger- Spritesheet_57
       rect:
         serializedVersion: 2
-        x: 10
-        y: 239
-        width: 29
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 11
+        y: 240
+        width: 27
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1677,12 +1677,12 @@ TextureImporter:
       name: Ranger- Spritesheet_58
       rect:
         serializedVersion: 2
-        x: 59
-        y: 239
-        width: 25
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 240
+        width: 23
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1699,12 +1699,12 @@ TextureImporter:
       name: Ranger- Spritesheet_59
       rect:
         serializedVersion: 2
-        x: 107
-        y: 239
-        width: 35
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 108
+        y: 240
+        width: 33
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1721,12 +1721,12 @@ TextureImporter:
       name: Ranger- Spritesheet_60
       rect:
         serializedVersion: 2
-        x: 154
-        y: 239
-        width: 30
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 155
+        y: 240
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1743,12 +1743,12 @@ TextureImporter:
       name: Ranger- Spritesheet_61
       rect:
         serializedVersion: 2
-        x: 202
-        y: 239
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 203
+        y: 240
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1765,12 +1765,12 @@ TextureImporter:
       name: Ranger- Spritesheet_62
       rect:
         serializedVersion: 2
-        x: 250
-        y: 239
-        width: 39
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 251
+        y: 240
+        width: 37
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1787,12 +1787,12 @@ TextureImporter:
       name: Ranger- Spritesheet_63
       rect:
         serializedVersion: 2
-        x: 297
-        y: 239
-        width: 39
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 298
+        y: 240
+        width: 37
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1809,12 +1809,12 @@ TextureImporter:
       name: Ranger- Spritesheet_64
       rect:
         serializedVersion: 2
-        x: 346
-        y: 239
-        width: 34
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 347
+        y: 240
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1831,12 +1831,12 @@ TextureImporter:
       name: Ranger- Spritesheet_65
       rect:
         serializedVersion: 2
-        x: 11
-        y: 191
-        width: 19
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 192
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1853,12 +1853,12 @@ TextureImporter:
       name: Ranger- Spritesheet_66
       rect:
         serializedVersion: 2
-        x: 57
-        y: 191
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 58
+        y: 192
+        width: 23
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1875,12 +1875,12 @@ TextureImporter:
       name: Ranger- Spritesheet_67
       rect:
         serializedVersion: 2
-        x: 106
-        y: 191
-        width: 21
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 107
+        y: 192
+        width: 19
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1897,12 +1897,12 @@ TextureImporter:
       name: Ranger- Spritesheet_68
       rect:
         serializedVersion: 2
-        x: 11
-        y: 143
-        width: 27
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 144
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1919,12 +1919,12 @@ TextureImporter:
       name: Ranger- Spritesheet_69
       rect:
         serializedVersion: 2
-        x: 59
-        y: 145
-        width: 28
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 146
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1941,12 +1941,12 @@ TextureImporter:
       name: Ranger- Spritesheet_70
       rect:
         serializedVersion: 2
-        x: 107
-        y: 146
-        width: 28
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 108
+        y: 147
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1963,12 +1963,12 @@ TextureImporter:
       name: Ranger- Spritesheet_71
       rect:
         serializedVersion: 2
-        x: 155
-        y: 145
-        width: 28
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 146
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1985,12 +1985,12 @@ TextureImporter:
       name: Ranger- Spritesheet_72
       rect:
         serializedVersion: 2
-        x: 11
-        y: 95
-        width: 19
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 96
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2007,12 +2007,12 @@ TextureImporter:
       name: Ranger- Spritesheet_73
       rect:
         serializedVersion: 2
-        x: 59
-        y: 97
-        width: 22
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 98
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2029,12 +2029,12 @@ TextureImporter:
       name: Ranger- Spritesheet_74
       rect:
         serializedVersion: 2
-        x: 107
-        y: 98
-        width: 22
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 108
+        y: 99
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2051,12 +2051,12 @@ TextureImporter:
       name: Ranger- Spritesheet_75
       rect:
         serializedVersion: 2
-        x: 155
-        y: 97
-        width: 22
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 98
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2073,12 +2073,12 @@ TextureImporter:
       name: Ranger- Spritesheet_76
       rect:
         serializedVersion: 2
-        x: 11
-        y: 47
-        width: 27
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 48
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2095,12 +2095,12 @@ TextureImporter:
       name: Ranger- Spritesheet_77
       rect:
         serializedVersion: 2
-        x: 59
-        y: 49
-        width: 28
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 50
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2117,12 +2117,12 @@ TextureImporter:
       name: Ranger- Spritesheet_78
       rect:
         serializedVersion: 2
-        x: 107
-        y: 50
-        width: 28
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 108
+        y: 51
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2139,12 +2139,12 @@ TextureImporter:
       name: Ranger- Spritesheet_79
       rect:
         serializedVersion: 2
-        x: 155
-        y: 49
-        width: 28
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 50
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2161,12 +2161,12 @@ TextureImporter:
       name: Ranger- Spritesheet_80
       rect:
         serializedVersion: 2
-        x: 203
-        y: 47
-        width: 27
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 204
+        y: 48
+        width: 25
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2183,12 +2183,12 @@ TextureImporter:
       name: Ranger- Spritesheet_81
       rect:
         serializedVersion: 2
-        x: 251
-        y: 47
-        width: 34
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 252
+        y: 48
+        width: 32
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2205,12 +2205,12 @@ TextureImporter:
       name: Ranger- Spritesheet_82
       rect:
         serializedVersion: 2
-        x: 305
-        y: 47
-        width: 29
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 306
+        y: 48
+        width: 27
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2227,12 +2227,12 @@ TextureImporter:
       name: Ranger- Spritesheet_83
       rect:
         serializedVersion: 2
-        x: 353
-        y: 47
-        width: 29
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 354
+        y: 48
+        width: 27
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2249,12 +2249,12 @@ TextureImporter:
       name: Ranger- Spritesheet_84
       rect:
         serializedVersion: 2
-        x: 401
-        y: 47
-        width: 29
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 402
+        y: 48
+        width: 27
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2271,12 +2271,12 @@ TextureImporter:
       name: Ranger- Spritesheet_85
       rect:
         serializedVersion: 2
-        x: 449
-        y: 47
-        width: 29
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 450
+        y: 48
+        width: 27
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2293,12 +2293,12 @@ TextureImporter:
       name: Ranger- Spritesheet_86
       rect:
         serializedVersion: 2
-        x: 11
+        x: 12
         y: 0
-        width: 19
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2315,12 +2315,12 @@ TextureImporter:
       name: Ranger- Spritesheet_87
       rect:
         serializedVersion: 2
-        x: 59
-        y: 1
-        width: 22
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 2
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2337,12 +2337,12 @@ TextureImporter:
       name: Ranger- Spritesheet_88
       rect:
         serializedVersion: 2
-        x: 107
-        y: 2
-        width: 22
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 108
+        y: 3
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2359,12 +2359,12 @@ TextureImporter:
       name: Ranger- Spritesheet_89
       rect:
         serializedVersion: 2
-        x: 155
-        y: 1
-        width: 22
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 2
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2381,12 +2381,12 @@ TextureImporter:
       name: Ranger- Spritesheet_90
       rect:
         serializedVersion: 2
-        x: 203
+        x: 204
         y: 0
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2403,12 +2403,12 @@ TextureImporter:
       name: Ranger- Spritesheet_91
       rect:
         serializedVersion: 2
-        x: 251
+        x: 252
         y: 0
-        width: 26
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 24
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2425,12 +2425,12 @@ TextureImporter:
       name: Ranger- Spritesheet_92
       rect:
         serializedVersion: 2
-        x: 305
+        x: 306
         y: 0
-        width: 29
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 27
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2447,12 +2447,12 @@ TextureImporter:
       name: Ranger- Spritesheet_93
       rect:
         serializedVersion: 2
-        x: 353
+        x: 354
         y: 0
-        width: 29
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 27
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2469,12 +2469,12 @@ TextureImporter:
       name: Ranger- Spritesheet_94
       rect:
         serializedVersion: 2
-        x: 401
+        x: 402
         y: 0
-        width: 29
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 27
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2491,12 +2491,12 @@ TextureImporter:
       name: Ranger- Spritesheet_95
       rect:
         serializedVersion: 2
-        x: 449
+        x: 450
         y: 0
-        width: 29
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 27
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2513,7 +2513,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4971030a8f94b7e45b107a086480dff8
     internalID: 0
     vertices: []
     indices: 

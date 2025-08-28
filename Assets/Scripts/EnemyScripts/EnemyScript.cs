@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer), typeof(Animator))]
-public class EnemyScript : MonoBehaviour
+public abstract class Enemy : MonoBehaviour
 {
 
     protected SpriteRenderer sr;
@@ -11,7 +11,7 @@ public class EnemyScript : MonoBehaviour
     [SerializeField] private int maxHealth = 5;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    protected void Start()
+    protected virtual void Start()
     {
        sr = GetComponent<SpriteRenderer>();
        anim = GetComponent<Animator>();
@@ -26,4 +26,19 @@ public class EnemyScript : MonoBehaviour
 
     }
 
+    public virtual void TakeDamage(int damageValue, DamageType damageType = DamageType.Default)
+    {
+        health -= damageValue;
+        if (health <= 0)
+        {
+            anim.SetTrigger("Death");
+        }
+    }
+
+}
+
+public enum DamageType
+{
+    Default,
+    JumpedOn
 }

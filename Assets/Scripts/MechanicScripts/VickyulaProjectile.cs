@@ -21,4 +21,14 @@ public class VickyulaProjectile : MonoBehaviour
 
         sr.flipX = velocity.x < 0;
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        var enemy = other.GetComponentInParent<Enemy>();
+        if (!enemy) return;
+
+        enemy.TakeDamage(int.MaxValue, DamageType.Default); // insta-kill for now
+        Destroy(gameObject);
+    }
+
 }

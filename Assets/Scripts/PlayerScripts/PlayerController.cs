@@ -35,6 +35,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float groundCheckRadius = 0.2f;
 
+    [SerializeField] float stompBounceSpeed = 12f;
+
     //[SerializeField] private bool isGrounded = false;
     [SerializeField] private bool isFalling = false;
     [SerializeField] private bool isCasting = false;
@@ -117,4 +119,15 @@ public class PlayerController : MonoBehaviour
     {
         return isFalling;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Squish Collider") && rb.linearVelocityY < 0)
+        {
+            collision.GetComponentInParent<Enemy>().TakeDamage(0, DamageType.JumpedOn);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
+            rb.AddForce(Vector2.up * stompBounceSpeed * rb.mass, ForceMode2D.Impulse);
+        }
+    }
+
 }

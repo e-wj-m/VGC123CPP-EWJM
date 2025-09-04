@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/CIVMainMenu.unity
+    guid: 7c8317606d3ea8645bffe9f837e3de41
+  - enabled: 1
+    path: Assets/Scenes/CIVGame.unity
+    guid: 4095597bd8aa7d0419def0a96a02daa7
+  - enabled: 1
+    path: Assets/Scenes/CIVGameOverMenu.unity
+    guid: ff48175885f418a4faf0f7e46a651a6c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

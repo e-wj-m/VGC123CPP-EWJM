@@ -8,7 +8,7 @@ public class RangerEnemy : Enemy
     [SerializeField] private string flipTag = "Enemy Barriers"; // optional: trigger tag support
 
     [Header("Turn Sensor (Layer-based)")]
-    [SerializeField] private LayerMask turnMask;                       // layer(s) used by your barrier squares
+    [SerializeField] private LayerMask turnMask;                       
     [SerializeField] private Vector2 sensorSize = new Vector2(0.15f, 0.9f);
     [SerializeField] private Vector2 sensorOffset = new Vector2(0.25f, 0f);
 
@@ -90,8 +90,6 @@ public class RangerEnemy : Enemy
         }
     }
 
-    // ---------- Animation Event receivers ----------
-    // Use either name in the animation event. "Fire" exists to satisfy your current event.
     public void AE_Shoot() { if (shooter) shooter.Fire(); }
     public void Fire() { AE_Shoot(); }  // wrapper for existing event named "Fire"
 
@@ -103,7 +101,6 @@ public class RangerEnemy : Enemy
         return Physics2D.OverlapBox(origin, sensorSize, 0f, turnMask);
     }
 
-    // Optional: still support tag-based trigger barriers if you keep them
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag(flipTag) && !spotted)
@@ -138,7 +135,7 @@ public class RangerEnemy : Enemy
 
         Vector2 from = firePoint ? (Vector2)firePoint.position : (Vector2)transform.position;
         var hit = Physics2D.Raycast(from, delta.normalized, delta.magnitude, losBlockers);
-        return hit.collider == null; // true if nothing blocks view
+        return hit.collider == null; 
     }
 
     private void FacePlayerX()

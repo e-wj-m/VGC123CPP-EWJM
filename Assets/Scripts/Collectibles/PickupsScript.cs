@@ -24,9 +24,26 @@ public class PickupsScript : MonoBehaviour
             switch (pickupType)
             {
                 case PickupType.Relic:
-                pc.AddScore(relicScoreValue);
-                    Debug.Log($"Sanguine Relic Collected! Current Relics Held: {pc.GetScore()} (+{relicScoreValue})");
+                {
+                    pc.AddScore(relicScoreValue);
+
+                    pc.AddRelic();
+
+                    var gm = GameManager.Instance;
+                    if (gm != null)
+                    {
+                        gm.TryAddLife(1);
+
+                        Debug.Log($"Sanguine Relic Collected! Lives: {gm.lives}/{gm.maxLives} | Relics Held: {pc.GetRelics()} (Score +{relicScoreValue})");
+                    }
+
+                    else
+                    {
+                        Debug.LogWarning("Relic Collected, but no GameManager instance was found.");
+                    }
+
                     break;
+                }
 
                 case PickupType.Powerup:
                     pc.ApplySpeedPowerup(powerupSpeedMultiplier, powerupDuration);

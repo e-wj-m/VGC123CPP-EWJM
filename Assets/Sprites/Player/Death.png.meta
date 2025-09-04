@@ -170,12 +170,12 @@ TextureImporter:
       name: Death_0
       rect:
         serializedVersion: 2
-        x: 56
-        y: 42
-        width: 35
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 57
+        y: 43
+        width: 33
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -192,12 +192,12 @@ TextureImporter:
       name: Death_1
       rect:
         serializedVersion: 2
-        x: 196
-        y: 42
-        width: 35
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 197
+        y: 43
+        width: 33
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: Death_2
       rect:
         serializedVersion: 2
-        x: 336
-        y: 42
-        width: 35
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 337
+        y: 43
+        width: 33
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: Death_3
       rect:
         serializedVersion: 2
-        x: 476
-        y: 42
-        width: 35
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 477
+        y: 43
+        width: 33
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: Death_4
       rect:
         serializedVersion: 2
-        x: 616
-        y: 42
-        width: 35
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 617
+        y: 43
+        width: 33
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,12 +280,12 @@ TextureImporter:
       name: Death_5
       rect:
         serializedVersion: 2
-        x: 756
-        y: 42
-        width: 35
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 757
+        y: 43
+        width: 33
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: Death_6
       rect:
         serializedVersion: 2
-        x: 896
-        y: 42
-        width: 35
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 897
+        y: 43
+        width: 36
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -321,37 +321,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_7
-      rect:
-        serializedVersion: 2
-        x: 928
-        y: 85
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0d726ab394952a50800000000000000
-      internalID: 6495761399759928590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Death_8
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 42
-        width: 39
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1037
+        y: 43
+        width: 37
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,12 +346,12 @@ TextureImporter:
       name: Death_9
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 42
-        width: 39
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1177
+        y: 43
+        width: 37
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,12 +368,12 @@ TextureImporter:
       name: Death_10
       rect:
         serializedVersion: 2
-        x: 1316
-        y: 42
-        width: 39
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1317
+        y: 43
+        width: 37
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,12 +390,12 @@ TextureImporter:
       name: Death_11
       rect:
         serializedVersion: 2
-        x: 1457
-        y: 42
-        width: 23
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1458
+        y: 43
+        width: 21
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,12 +412,12 @@ TextureImporter:
       name: Death_12
       rect:
         serializedVersion: 2
-        x: 1595
-        y: 42
-        width: 23
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1596
+        y: 43
+        width: 21
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -456,12 +434,12 @@ TextureImporter:
       name: Death_13
       rect:
         serializedVersion: 2
-        x: 1735
-        y: 42
-        width: 24
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1736
+        y: 43
+        width: 22
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -478,12 +456,12 @@ TextureImporter:
       name: Death_14
       rect:
         serializedVersion: 2
-        x: 1870
-        y: 42
-        width: 29
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1871
+        y: 43
+        width: 27
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -500,12 +478,12 @@ TextureImporter:
       name: Death_15
       rect:
         serializedVersion: 2
-        x: 2010
-        y: 42
-        width: 31
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2011
+        y: 43
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -522,12 +500,12 @@ TextureImporter:
       name: Death_16
       rect:
         serializedVersion: 2
-        x: 2151
-        y: 42
-        width: 30
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2152
+        y: 43
+        width: 28
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -544,12 +522,12 @@ TextureImporter:
       name: Death_17
       rect:
         serializedVersion: 2
-        x: 2289
-        y: 42
-        width: 32
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2290
+        y: 43
+        width: 30
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -566,12 +544,12 @@ TextureImporter:
       name: Death_18
       rect:
         serializedVersion: 2
-        x: 2429
-        y: 42
-        width: 32
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2430
+        y: 43
+        width: 30
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -588,7 +566,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e275bdd991a8cb341813d34284dc9a49
     internalID: 0
     vertices: []
     indices: 

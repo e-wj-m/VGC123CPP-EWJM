@@ -6,12 +6,24 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
     private int score = 0;
-
+    
     public int GetScore() => score;
     public void AddScore(int amount)
     {
         score += amount;
         if (score < 0) score = 0;
+    }
+
+    [SerializeField] private int relicsCollected = 0;
+
+    public void AddRelic()
+    {
+        relicsCollected++;
+    }
+
+    public int GetRelics()
+    {
+        return relicsCollected;
     }
 
     private float speedMultiplier = 1f;

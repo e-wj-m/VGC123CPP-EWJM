@@ -1,8 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
+using System;
 
 public class GameManager : MonoBehaviour
 {
+    public Action<int> OnLivesChanged;
+
     private int _lives = 3;
 
     public int lives
@@ -27,6 +31,7 @@ public class GameManager : MonoBehaviour
             }
 
             Debug.Log($"Lives Left: {_lives}");
+            OnLivesChanged?.Invoke( _lives );
         }
     }
 
@@ -95,4 +100,9 @@ public class GameManager : MonoBehaviour
             lives++;
         }
     }
+
+    public void StartGame() => SceneManager.LoadScene(1);
+
 }
+
+

@@ -10,7 +10,6 @@ public abstract class Enemy : MonoBehaviour
 
     [SerializeField] private int maxHealth = 5;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected virtual void Start()
     {
        sr = GetComponent<SpriteRenderer>();

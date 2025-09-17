@@ -5,19 +5,20 @@ using TMPro;
 
 public class CanvasManager : MonoBehaviour
 {
-    [Header("Button")]
+    [Header("Main / Pause Buttons")]
     public Button startButton;
-    public Button settingsButton;
-    public Button backButton;
     public Button quitButton;
-
     public Button resumeGame;
     public Button returnToMenu;
+    public Button creditsButton;
 
     [Header("Panels")]
-    public GameObject mainMenuPanel;
-    public GameObject settingsPanel;
-    public GameObject pauseMenuPanel;
+    public GameObject mainMenuPanel;   
+    public GameObject pauseMenuPanel;  
+
+    [Header("Credits UI")]
+    public GameObject creditsPanel;       
+    public Button creditsBackButton;     
 
     [Header("Text Elements")]
     public TMP_Text livesText;
@@ -26,27 +27,20 @@ public class CanvasManager : MonoBehaviour
 
     void Awake()
     {
-        
         Time.timeScale = 1f;
 
-       
         if (pauseMenuPanel) pauseMenuPanel.SetActive(false);
-
+        if (creditsPanel) creditsPanel.SetActive(false); 
        
-        if (!IsMainMenuScene())
-        {
-            if (mainMenuPanel) mainMenuPanel.SetActive(false);
-            if (settingsPanel) settingsPanel.SetActive(false);
-        }
     }
 
     void Start()
     {
-        
         if (startButton) startButton.onClick.AddListener(() => SceneManager.LoadScene(1));
-        if (settingsButton) settingsButton.onClick.AddListener(() => SetMenus(settingsPanel, mainMenuPanel));
-        if (backButton) backButton.onClick.AddListener(() => SetMenus(mainMenuPanel, settingsPanel));
         if (quitButton) quitButton.onClick.AddListener(QuitGame);
+
+        if (creditsButton) creditsButton.onClick.AddListener(OpenCredits);
+        if (creditsBackButton) creditsBackButton.onClick.AddListener(CloseCredits);
 
         if (resumeGame) resumeGame.onClick.AddListener(TogglePause);
         if (returnToMenu) returnToMenu.onClick.AddListener(ReturnToMainMenu);
@@ -61,9 +55,23 @@ public class CanvasManager : MonoBehaviour
     void Update()
     {
         if (pauseMenuPanel && Input.GetKeyDown(KeyCode.P))
-        {
             TogglePause();
-        }
+    }
+
+    private void OpenCredits()
+    {
+        SetMenus(creditsPanel, mainMenuPanel);
+    }
+
+    private void CloseCredits()
+    {
+        SetMenus(mainMenuPanel, creditsPanel);
+    }
+
+    private void SetMenus(GameObject show, GameObject hide)
+    {
+        if (show) show.SetActive(true);
+        if (hide) hide.SetActive(false);
     }
 
     private void TogglePause()
@@ -79,12 +87,6 @@ public class CanvasManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    private void SetMenus(GameObject menuToActivate, GameObject menuToDeactivate)
-    {
-        if (menuToActivate) menuToActivate.SetActive(true);
-        if (menuToDeactivate) menuToDeactivate.SetActive(false);
-    }
-
     private bool IsMainMenuScene()
     {
         var s = SceneManager.GetActiveScene();
@@ -93,10 +95,10 @@ public class CanvasManager : MonoBehaviour
 
     private void QuitGame()
     {
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-        #else
+#else
         Application.Quit();
-        #endif
+#endif
     }
 }

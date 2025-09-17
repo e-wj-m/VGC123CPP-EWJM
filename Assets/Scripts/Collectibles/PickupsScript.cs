@@ -1,7 +1,10 @@
 using UnityEngine;
 
 public class PickupsScript : MonoBehaviour
-{   
+{
+    public AudioClip pickupSound;
+    protected AudioSource audioSource;
+
     public enum PickupType
     {
         Relic = 0,
@@ -13,6 +16,20 @@ public class PickupsScript : MonoBehaviour
     [SerializeField] private int relicScoreValue = 10;
     [SerializeField] private float powerupSpeedMultiplier = 1.5f;
     [SerializeField] private float powerupDuration = 5f;
+
+    public virtual void Start()
+    {
+        if (pickupSound != null)
+        {
+            TryGetComponent(out audioSource);
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>();
+                audioSource.outputAudioMixerGroup = GameManager.Instance.sfxMixerGroup;
+                Debug.LogWarning("AudioSource component missing - added one dynamically!");
+            }
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -34,6 +51,10 @@ public class PickupsScript : MonoBehaviour
                     {
                         gm.TryAddLife(1);
 
+                        audioSource?.PlayOneShot(pickupSound);
+                        GetComponent<SpriteRenderer>().enabled = false;
+                        GetComponent<Collider2D>().enabled = false;
+
                         Debug.Log($"Sanguine Relic Collected! Lives: {gm.lives}/{gm.maxLives} | Relics Held: {pc.GetRelics()} (Score +{relicScoreValue})");
                     }
 
@@ -48,11 +69,16 @@ public class PickupsScript : MonoBehaviour
                 case PickupType.Powerup:
                     pc.ApplySpeedPowerup(powerupSpeedMultiplier, powerupDuration);
                 Debug.Log($"Vampiric Rage! Speed x{powerupSpeedMultiplier} for {powerupDuration:0.#}s");
-                    break;
+                audioSource?.PlayOneShot(pickupSound);
+                GetComponent<SpriteRenderer>().enabled = false;
+                GetComponent<Collider2D>().enabled = false;
+                break;
             }
 
-            Destroy(gameObject);
+            Destroy(gameObject, 5.0f);
 
     }
 }
 
+//GetComponent<SpriteRenderer>().enabled = false;
+//GetComponent<Collider2D>().enabled = false;

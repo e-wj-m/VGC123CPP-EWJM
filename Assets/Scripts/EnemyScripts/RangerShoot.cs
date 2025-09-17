@@ -1,9 +1,14 @@
 using UnityEngine;
 
 [DisallowMultipleComponent]
+[RequireComponent(typeof(AudioSource))]
 public class RangerShoot : MonoBehaviour
 {
+    [Header("Audio")]
+    public AudioClip shootSound;
+
     private SpriteRenderer sr;
+    private AudioSource audioSource;
 
     [Header("Shot Settings")]
     [SerializeField] private Vector2 initShotVelocity = new Vector2(10f, 0f);
@@ -13,12 +18,20 @@ public class RangerShoot : MonoBehaviour
     [SerializeField] private Transform rightSpawn;
 
     [Header("Projectile Prefab")]
-    [SerializeField] private GameObject projectilePrefab; // must have RangerProjectile 
+    [SerializeField] private GameObject projectilePrefab; 
 
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
         if (!sr) sr = GetComponentInParent<SpriteRenderer>();
+
+        audioSource = GetComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.spatialBlend = 0f; 
+        if (GameManager.Instance && GameManager.Instance.sfxMixerGroup)
+        {
+            audioSource.outputAudioMixerGroup = GameManager.Instance.sfxMixerGroup;
+        }
     }
 
     private void Start()
@@ -35,9 +48,14 @@ public class RangerShoot : MonoBehaviour
 
         bool facingRight = !sr.flipX;
         Transform spawn = facingRight ? rightSpawn : leftSpawn;
+
+        if (shootSound != null)
+        {
+            audioSource.PlayOneShot(shootSound);
+        }
+
         var go = Instantiate(projectilePrefab, spawn.position, Quaternion.identity);
 
-        // Prefer new RangerProjectile
         var rp = go.GetComponent<RangerProjectile>();
         if (rp)
         {
@@ -54,6 +72,6 @@ public class RangerShoot : MonoBehaviour
             return;
         }
 
-        Debug.LogError($"[{name}] RangerCast: Projectile prefab missing RangerProjectile/VickyulaProjectile component.");
+        Debug.LogError($"[{name}] RangerShoot: Projectile prefab missing RangerProjectile/VickyulaProjectile component.");
     }
 }

@@ -2,15 +2,30 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    public AudioClip castSound;
+
     private SpriteRenderer sr;
+    private AudioSource audioSource;
+
     [SerializeField] private Vector2 initShotVelocity = Vector2.zero;
     [SerializeField] private Transform leftSpawn;
     [SerializeField] private Transform rightSpawn;
     [SerializeField] private GameObject projectilePrefab = null;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        if (castSound != null)
+        {
+            TryGetComponent(out audioSource);
+
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>();
+                audioSource.outputAudioMixerGroup = GameManager.Instance.sfxMixerGroup;
+                Debug.LogWarning("AudioSource component missing. Added one dynamically!");
+            }
+        }
 
         if (initShotVelocity == Vector2.zero)
         {
@@ -38,6 +53,8 @@ public class Projectile : MonoBehaviour
              Quaternion.identity).GetComponent<VickyulaProjectile>();
             curProjectile.SetVelocity(new Vector2(-initShotVelocity.x, initShotVelocity.y));
         }
+
+        audioSource?.PlayOneShot(castSound);
     }
 
 }

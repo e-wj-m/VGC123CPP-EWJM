@@ -5,6 +5,11 @@ using System.Collections;
 [RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
+    public AudioClip jumpSound;
+    public AudioClip squishSound;
+
+    private AudioSource audioSource;
+
     private int score = 0;
     
     public int GetScore() => score;
@@ -78,6 +83,18 @@ public class PlayerController : MonoBehaviour
 
         groundCheck = new GroundCheck(col, groundLayer, ref groundCheckRadius);
         initialGroundCheckRadius = groundCheckRadius;
+
+        if (jumpSound != null)
+        {
+            TryGetComponent(out audioSource);
+
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>();
+                audioSource.outputAudioMixerGroup = GameManager.Instance.sfxMixerGroup;
+                Debug.LogWarning("AudioSource component missing. Added one dynamically!");
+            }
+        }
     }
     void Update()
     {
@@ -100,6 +117,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && groundCheck.IsGrounded && !isCasting)
         {
             rb.AddForce(Vector2.up * 9f, ForceMode2D.Impulse);
+            audioSource?.PlayOneShot(jumpSound);
         }
 
         isFalling = rb.linearVelocity.y < 0 && !groundCheck.IsGrounded;
@@ -139,6 +157,8 @@ public class PlayerController : MonoBehaviour
             collision.GetComponentInParent<Enemy>().TakeDamage(0, DamageType.JumpedOn);
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(Vector2.up * stompBounceSpeed * rb.mass, ForceMode2D.Impulse);
+            if (squishSound != null)
+                audioSource?.PlayOneShot(squishSound);
         }
     }
 

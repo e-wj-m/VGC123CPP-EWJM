@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class VJumpAttackBehaviour : StateMachineBehaviour
 {
+    [Header("Audio")]
+    [SerializeField] private AudioClip diveSound;     
+
     public GameObject explosionPrefab;
 
     [Header("Dive")]
@@ -18,23 +21,24 @@ public class VJumpAttackBehaviour : StateMachineBehaviour
 
     private Rigidbody2D rb;
     private PlayerController player;
+    private AudioSource audioSource;
 
     private bool isDiving = false;
     private bool impactSpawned = false;
     private float lastTrailTime = 0f;
 
-    // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
-    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         rb = animator.GetComponent<Rigidbody2D>();
         player = animator.GetComponent<PlayerController>();
+        audioSource = animator.GetComponent<AudioSource>();  
+
         isDiving = false;
         impactSpawned = false;
         lastTrailTime = 0f;
     }
 
-    // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
-    override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         if (player == null || rb == null) return;
 
@@ -56,31 +60,22 @@ public class VJumpAttackBehaviour : StateMachineBehaviour
             }
         }
 
-        if (spawnImpact && isDiving && !player.IsFalling() & !impactSpawned)
+        if (spawnImpact && isDiving && !player.IsFalling() && !impactSpawned)
         {
             SpawnFX(animator.transform.position, impactLifetime);
+
+            if (diveSound && audioSource)
+                audioSource.PlayOneShot(diveSound);
+
             impactSpawned = true;
         }
     }
 
-    // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         isDiving = false;
         impactSpawned = false;
     }
-
-    // OnStateMove is called right after Animator.OnAnimatorMove()
-    //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that processes and affects root motion
-    //}
-
-    // OnStateIK is called right after Animator.OnAnimatorIK()
-    //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that sets up animation IK (inverse kinematics)
-    //}
 
     private void SpawnFX(Vector3 pos, float lifetime)
     {

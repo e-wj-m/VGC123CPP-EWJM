@@ -477,6 +477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f73498916f89164ea9b5997837a56c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diveSound: {fileID: 8300000, guid: a4909bf69146ddb428bc5ea5ef048cb7, type: 3}
   explosionPrefab: {fileID: 3489511991973764128, guid: 7a338458535550743aa77df5b7635c62, type: 3}
   diveForce: 35
   spawnTrail: 1

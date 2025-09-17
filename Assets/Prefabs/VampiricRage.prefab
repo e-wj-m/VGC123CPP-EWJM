@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19dcb27b9844a324a9f4d5a9c05b221c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: {fileID: 8300000, guid: 77aa6713458ffb74caefdff85788d9ac, type: 3}
   pickupType: 1
   relicScoreValue: 0
   powerupSpeedMultiplier: 2
